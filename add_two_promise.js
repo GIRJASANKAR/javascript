@@ -19,12 +19,7 @@ addTwoPromises(promiseA, promiseB).then(result => {
 }).catch(error => {
     console.error(error.message);
 });
-// In this version:
 
-// We are using the await keyword to wait for both promise1 and promise2 to resolve.
-// The resolved values are added together.
-// The result is returned.
-// If either promise rejects, the error will be caught and a new error will be thrown.
 
 
 
