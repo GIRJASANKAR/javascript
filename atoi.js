@@ -1,4 +1,4 @@
-unction myAtoi(s: string): number {
+function myAtoi(s: string): number {
     const len = s.length;
     let result = 0;
     let sign = 1;
