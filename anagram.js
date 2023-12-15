@@ -27,3 +27,4 @@ function isAnagram(str1, str2) {
 // not able to check why it is not working some permutation issue is facing
 // length logic is working fine 
 // after sorting logic is working fine
+// any special character creating the issue
