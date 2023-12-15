@@ -23,4 +23,4 @@ function isAnagram(str1, str2) {
   }
   
   module.exports = isAnagram;
-  
+//   not working as expeceted
