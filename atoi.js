@@ -20,6 +20,7 @@ function myAtoi(s: string): number {
              return 0;
          }
     }   
+    
     return sign === -1 ? Math.max(-(2 ** 31), -result) : Math.min(2 ** 31 - 1, result);
  // perfect mess but documented xd
  };
