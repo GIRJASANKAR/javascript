@@ -9,5 +9,6 @@ new Promise((resolve, reject) => {
   }, (error) => {
     console.log('error')
   })
+  
 
 //  output-  1
