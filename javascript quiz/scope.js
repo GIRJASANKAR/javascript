@@ -1,8 +1,8 @@
 // This is a JavaScript Quiz from BFE.dev
 
-for (var i = 0; i < 5; i++) {
-    setTimeout(() => console.log(i), 0)
-  }
+// for (var i = 0; i < 5; i++) {
+//     setTimeout(() => console.log(i), 0)
+//   }
   
 // 0,1,2,3,4
 
@@ -21,3 +21,6 @@ for (var i = 0; i < 5; i++) {
 
 // let and const in for creates new scope for each iteration, which means the i in console.log() points to different values.
 // This behavior doesn't apply to var, meaning the i points to same gloabl scope. Because of setTimeout(), console.log() is called after for loop is done, so i is always 5.
+
+
+// how to get this behaviour using var need to figre out using closure or bind.
