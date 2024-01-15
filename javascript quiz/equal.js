@@ -7,7 +7,6 @@ console.log('1' == true)
 console.log(1n == true)
 console.log(' 1     ' == true)
 
-
 /*
 true
 true
