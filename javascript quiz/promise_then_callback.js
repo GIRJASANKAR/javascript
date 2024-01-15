@@ -1,4 +1,4 @@
-// This is a JavaScript Quiz from BFE.dev
+// from BFE.dev
 
 Promise.resolve(1)   // fullfillled 1
 .then((val) => {
@@ -33,13 +33,14 @@ Promise.resolve(1)   // fullfillled 1
 
 
 
-// 1. finally() never receive an argument
-
 // then() creates a new Promise, in which the return value of the callbacks are used in resolve() or reject() internally
 // if a new Promise is returned, it will be chained.
 // Promise.prototype.finally() returns a new Promise, if the passed callback throws an error or returns a rejected promise, the promise returned by finally() will be rejected with that value instead, therwise the return value of the handler does NOT affect the state of the original promise.
 
 
+
+
+// output
 
 // 1
 // 2
