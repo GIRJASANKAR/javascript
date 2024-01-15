@@ -19,3 +19,5 @@ for (var i = 0; i < 5; i++) {
 // 0,1,2,3,4
 
 
+// let and const in for creates new scope for each iteration, which means the i in console.log() points to different values.
+// This behavior doesn't apply to var, meaning the i points to same gloabl scope. Because of setTimeout(), console.log() is called after for loop is done, so i is always 5.
