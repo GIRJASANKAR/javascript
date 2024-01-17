@@ -7,6 +7,7 @@
 export default function setCancellableInterval(callback, delay, ...args) {
   let setIntervalID= setInterval(callback, delay, ...args);
   return (){
+    
     clearInterval(setIntervalID);
   }
 }
